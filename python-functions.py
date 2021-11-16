@@ -1,3 +1,5 @@
+# Challenge 1
+
 def sum_to (num):
   sum = 0
   for i in range(num+1):
@@ -7,6 +9,7 @@ def sum_to (num):
 print(sum_to(6)) # returns 21
 print(sum_to(10)) # returns 55
 
+# Challenge 2
 
 def largest(list):
   highest=0
@@ -19,6 +22,7 @@ def largest(list):
 print(largest([1, 2, 3, 4, 0]))  # returns 4
 print(largest([10, 4, 2, 231, 91, 54]))  # returns 231
 
+# Challenge 3
 
 def occurances(str1, str2):
   return str1.count(str2)
@@ -28,6 +32,7 @@ print(occurances('fleep floop', 'p'))   # returns 2
 print(occurances('fleep floop', 'ee'))  # returns 1
 print(occurances('fleep floop', 'fe'))  # returns 0
 
+# Challenge 4
 
 def product( *args):
   product = 1
@@ -38,4 +43,3 @@ def product( *args):
 print(product(-1, 4)) # returns -4
 print(product(2, 5, 5)) # returns 50
 print(product(4, 0.5, 5)) # returns 10.0
-
